@@ -32,10 +32,10 @@ func_with_obj({
 const newarray = [100,200,500]
 
 function getsecondvalue(myarray){
-    return myarray[1]
+    console.log(myarray[1]);
+    
 }
 
-const array_value = getsecondvalue(newarray)
-console.log(array_value);
+getsecondvalue(newarray)
 
 
